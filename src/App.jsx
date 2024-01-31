@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Signup from './components/Signup';
 import Forgot from './components/Forgot';
-import NewPassword from './components/Newpassword';
+import NewPassword from './components/NewPassword';
 import Dashboard from './components/Dashboard';
 import GetShortURL from './innercomponents/GetShortURL';
 
