@@ -37,7 +37,9 @@ const NewPassword = () => {
   }
 
   return (
-    <div className="flex items-center justify-center h-screen bg-slate-800">
+    <div className="flex items-center justify-center h-screen bg-slate-800"
+    style={{backgroundImage: 'url("../images/NewPass.jpg")', backgroundSize: 'cover', backgroundPosition: 'center'}}
+    >
       <GetNewPassword handelClick={handelClick} response={response} />
     </div>
   );
