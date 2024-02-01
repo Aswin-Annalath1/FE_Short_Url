@@ -50,7 +50,7 @@ const GetShortURL = ({setInac, setShortUrlData}) => {
   return (
     <div className="flex flex-col items-center justify-center w-screen gap-2 text-center m-10 ">
         <div className="w-60 sm:w-96">
-            <label htmlFor="fullURL" className="block mb-5 text-sm font-bold dark:text-white">CONVERT HERE</label>
+            <label htmlFor="fullURL" className="block mb-5 text-sm font-bold text-green-500">CONVERT HERE</label>
 
             <div className="flex rounded-lg shadow-sm">
 

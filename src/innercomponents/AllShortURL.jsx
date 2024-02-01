@@ -46,7 +46,7 @@ const AllShortURL = ({shortUrlData}) => {
                             <tbody key={val._id}>
                                 <tr className="border-b odd:bg-neutral-500 even:bg-gray-500 dark:border-gray-700">
                                     <td className="px-6 py-4 text-center">
-                                        <a href={`${import.meta.env.VITE_API}/s/${val.shortURL}`} target="_blank" rel="noreferrer">
+                                        <a href={`${import.meta.env.VITE_API}/s/${val.shortURL}`} target="_blank" rel="noreferrer" className="short-url-link" >
                                             {`${import.meta.env.VITE_API}/s/${val.shortURL}`}
                                         </a>
                                     </td>
